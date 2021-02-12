@@ -1,0 +1,16 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Virtual Machine was successfully added to the Web Tier</h1>
+    <h2>Please find the below username & password for the machine </h2>
+    <h2>Kindly use putty tool to connect to the below machine</h2>
+    <h3>Username : {{user_name}}</h3>
+    <h3>Password : {{password}}</h3>
+    <h3>Ip Address : {{vmipadr}}</h3>
+</div>
+{% endblock %}
